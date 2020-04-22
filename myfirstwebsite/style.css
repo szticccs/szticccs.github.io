@@ -1,0 +1,61 @@
+.container{
+  position: relative;
+}
+.myname{
+  position: absolute;
+  left: 23%;
+  top: 50%;
+}
+
+.body{
+  width: 60%;
+  margin: auto;
+}
+
+h1{
+  background: grey;
+  padding: 15px;
+  color: white;
+  font-family: 'Abril Fatface';
+}
+h5{
+  font-family: 'Abril Fatface';
+  font-size:45px; 
+}
+.anakin{
+  background: none;
+  color:black;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+
+.hi{
+  font-family: 'Abril Fatface', serif;
+  margin-bottom: 0px;
+}
+
+h1:before{
+  font-family: 'Abril Fatface', serif;
+  content: '”';
+    padding-left: 10px;
+    font-size: 80px;
+    position: relative;
+    left: -25px;
+    top: -25px;
+
+}
+
+p{
+ font-family:'Josefin Sans', serif;
+  color: grey;
+}
+
+h2,h3{
+  font-family:'Merriweather', italic;
+  font-size: 15px;
+}
